@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaHome} from "react-icons/fa";
+import { herobanner } from '../assets';
 
 function Hero() {
   return (
@@ -25,7 +26,7 @@ function Hero() {
 
                 <figure className="hero-banner">
                 <img
-                    src="/src/assets/hero-banner.png"
+                    src={herobanner}
                     alt="Modern house model"
                     className="w-100"
                 />

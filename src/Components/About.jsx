@@ -1,6 +1,7 @@
 import React from 'react'
 import {FaHome} from "react-icons/fa";
 import {BiLeaf, BiWine, BiCheckShield} from "react-icons/bi";
+import { aboutbanner1, aboutbanner2 } from '../assets';
 
 
 function About() {
@@ -11,12 +12,12 @@ function About() {
             <div className="container">
                 <figure className="about-banner">
                 <img
-                    src="/src/assets/about-banner-1.png"
+                    src={aboutbanner1}
                     alt="House interior"
                 />
 
                 <img
-                    src="/src/assets/about-banner-2.jpg"
+                    src={aboutbanner2}
                     alt="House interior"
                     className="abs-img"
                 />

@@ -5,6 +5,7 @@ import {HiOutlineFilm} from "react-icons/hi";
 import { BiBed } from 'react-icons/bi';
 import { IoManOutline,IoAddCircleOutline,IoResize } from 'react-icons/io5';
 import {AiOutlineHeart} from "react-icons/ai";
+import { author, property1, property2, property3, property4 } from '../assets';
 function Property() {
     return (
         <div>
@@ -20,7 +21,7 @@ function Property() {
                   <figure className="card-banner">
                     <a href="#">
                       <img
-                        src="/src/assets/property-1.jpg"
+                        src={property1}
                         alt="New Apartment Nice View"
                         className="w-100"
                       />
@@ -93,7 +94,7 @@ function Property() {
                     <div className="card-author">
                       <figure className="author-avatar">
                         <img
-                          src="/src/assets/author.jpg"
+                          src={author}
                           alt="William Seklo"
                           className="w-100"
                         />
@@ -130,7 +131,7 @@ function Property() {
                   <figure className="card-banner">
                     <a href="#">
                       <img
-                        src="/src/assets/property-2.jpg"
+                        src={property2}
                         alt="Modern Apartments"
                         className="w-100"
                       />
@@ -203,7 +204,7 @@ function Property() {
                     <div className="card-author">
                       <figure className="author-avatar">
                         <img
-                          src="/src/assets/author.jpg"
+                          src={author}
                           alt="William Seklo"
                           className="w-100"
                         />
@@ -240,7 +241,7 @@ function Property() {
                   <figure className="card-banner">
                     <a href="#">
                       <img
-                        src="/src/assets/property-3.jpg"
+                        src={property3}
                         alt="Comfortable Apartment"
                         className="w-100"
                       />
@@ -312,7 +313,7 @@ function Property() {
                     <div className="card-author">
                       <figure className="author-avatar">
                         <img
-                          src="/src/assets/author.jpg"
+                          src={author}
                           alt="William Seklo"
                           className="w-100"
                         />
@@ -349,7 +350,7 @@ function Property() {
                   <figure className="card-banner">
                     <a href="#">
                       <img
-                        src="/src/assets/property-4.png"
+                        src={property4}
                         alt="Luxury villa in Rego Park"
                         className="w-100"
                       />
@@ -421,7 +422,7 @@ function Property() {
                     <div className="card-author">
                       <figure className="author-avatar">
                         <img
-                          src="/src/assets/author.jpg"
+                          src={author}
                           alt="William Seklo"
                           className="w-100"
                         />

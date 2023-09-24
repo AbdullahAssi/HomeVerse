@@ -2,6 +2,7 @@ import React from 'react'
 import {BsFillCalendar2MonthFill} from "react-icons/bs";
 import {GoPersonFill} from "react-icons/go";
 import {ImPriceTags} from "react-icons/im";
+import { blog1, blog2, blog3 } from '../assets';
 
 function Blogs() {
     return (
@@ -17,7 +18,7 @@ function Blogs() {
                     <div class="blog-card">
                     <figure class="card-banner">
                         <img
-                        src="/src/assets/blog-1.png"
+                        src={blog1}
                         alt="The Most Inspiring Interior Design Of 2021"
                         class="w-100"
                         />
@@ -67,7 +68,7 @@ function Blogs() {
                     <div class="blog-card">
                     <figure class="card-banner">
                         <img
-                        src="/src/assets/blog-2.jpg"
+                        src={blog2}
                         alt="Recent Commercial Real Estate Transactions"
                         class="w-100"
                         />
@@ -117,7 +118,7 @@ function Blogs() {
                     <div class="blog-card">
                     <figure class="card-banner">
                         <img
-                        src="/src/assets/blog-3.jpg"
+                        src={blog3}
                         alt="Renovating a Living Room? Experts Share Their Secrets"
                         class="w-100"
                         />

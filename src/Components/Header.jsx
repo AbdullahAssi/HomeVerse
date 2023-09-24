@@ -4,6 +4,7 @@ import {AiOutlineMail, AiOutlineMenu, AiOutlineCloseCircle, AiOutlineSearch, AiO
 import {BiLogoTwitter} from "react-icons/bi";
 import {MdPersonOutline} from "react-icons/md";
 import {CiLocationOn} from "react-icons/ci";
+import { logo } from "../assets";
 
 
 const Header = () => {
@@ -80,13 +81,13 @@ const Header = () => {
         <div className="header-bottom">
             <div className="container">
             <a href="#" className="logo">
-                <img src="/src/assets/logo.png" alt="Homeverse logo" />
+                <img src={logo} alt="Homeverse logo" />
             </a>
 
             <nav className={`navbar ${isNavbarOpen ? "active" : ""}`} data-navbar>
                 <div className="navbar-top">
                 <a href="#" className="logo">
-                    <img src="/src/assets/logo.png" alt="Homeverse logo" />
+                    <img src={logo} alt="Homeverse logo" />
                 </a>
 
                 <button

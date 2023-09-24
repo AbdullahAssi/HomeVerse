@@ -1,5 +1,6 @@
 import React from 'react'
 import {IoIosArrowRoundForward} from "react-icons/io";
+import { service1, service2, service3 } from '../assets';
 function Services() {
     return (
         <div>
@@ -13,7 +14,7 @@ function Services() {
                 <li>
                     <div class="service-card">
                     <div class="card-icon">
-                        <img src="/src/assets/service-1.png" alt="Service icon" />
+                        <img src={service1} alt="Service icon" />
                     </div>
 
                     <h3 class="h3 card-title">
@@ -36,7 +37,7 @@ function Services() {
                 <li>
                     <div class="service-card">
                     <div class="card-icon">
-                        <img src="/src/assets/service-2.png" alt="Service icon" />
+                        <img src={service2} alt="Service icon" />
                     </div>
 
                     <h3 class="h3 card-title">
@@ -59,7 +60,7 @@ function Services() {
                 <li>
                     <div class="service-card">
                     <div class="card-icon">
-                        <img src="/src/assets/service-3.png" alt="Service icon" />
+                        <img src={service3} alt="Service icon" />
                     </div>
 
                     <h3 class="h3 card-title">

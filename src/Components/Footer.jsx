@@ -2,6 +2,7 @@ import React from 'react'
 import {  CiLocationOn, CiMail, CiTwitter } from 'react-icons/ci'
 import { MdCall } from 'react-icons/md'
 import { BsLinkedin, BsYoutube } from 'react-icons/bs'
+import { logo2 } from '../assets'
 function Footer() {
     return (
         <div>
@@ -11,7 +12,7 @@ function Footer() {
             <div className="container">
             <div className="footer-brand">
                 <a href="#" className="logo">
-                <img src="/src/assets/logo-light.png" alt="Homeverse logo" />
+                <img src={logo2} alt="Homeverse logo" />
                 </a>
 
                 <p className="section-text">
